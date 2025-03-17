@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--color-black-dark);
+    height: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.copyright {
+    left: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6em;
+    text-align: center;
+}
+
