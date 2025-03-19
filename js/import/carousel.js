@@ -14,7 +14,7 @@ export default class Carousel {
       this.elem = createElement(`
           <div class="carousel">
             <div class="carousel__arrow carousel__arrow_right">
-              <img src="/img/icon/angle-icon.svg" alt="icon" />
+              <img src="img/icon/angle-icon.svg" alt="icon" />
             </div>
             <div class="carousel__arrow carousel__arrow_left">
               <img src="/img/icon/angle-left-icon.svg" alt="icon" />
