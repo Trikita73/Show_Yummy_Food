@@ -12,7 +12,7 @@ export default class ProductCard {
         this.elem = createElement(`<div class="card">
             <div class="card__top">
                 <img 
-                    src="/img/product/${this.product.image}"
+                    src="img/product/${this.product.image}"
                     class="card__image"
                     alt="product"
                 />
