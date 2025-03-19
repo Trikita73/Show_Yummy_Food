@@ -8,6 +8,7 @@
 	<link rel="icon" href="./img/favicon/favicon.ico">
 	<link rel="stylesheet" href="css/settings/common.css"/>
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/settings/preloader.css"/>
 
 	<script type="module">
 		import Main from './js/main.js';
@@ -17,11 +18,16 @@
 		main.render()
 			.then(() => console.log('Страница готова!'));
 	</script>
+	<script src="js/preloader.js"></script>
 
 </head>
 <body>
+	<!-- preloader -->
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
 	<header class="header container">
-		<!-- the font does not support cyrillic -->
+		<!-- the font don't support cyrillic -->
 		<h1 class="heading logo">Yummy Food</h1>
 		<h3 class="subheading">Great food・Free delivery・Fair price</h3>
 

@@ -10,6 +10,7 @@ import ProductsGrid from './import/productsgrid.js';
 import CartIcon from './import/carticon.js';
 import Cart from './import/cart.js';
 
+
 export default class Main {
 
     constructor() {
