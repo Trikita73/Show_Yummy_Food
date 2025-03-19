@@ -23,7 +23,7 @@
         "name": "Tom yam kai",
         "price": 7,
         "category": "soups",
-        "image": "./img/product/tom_yam.png",
+        "image": "tom_yam.png",
         "id": "tom-yam-kai",
         "nuts": false,
         "vegeterian": false,
