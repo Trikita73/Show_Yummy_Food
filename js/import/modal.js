@@ -14,7 +14,7 @@ export default class Modal {
                 <div class="modal__inner">
                     <div class="modal__header">
                         <button type="button" class="modal__close" data-modal-close>
-                            <img src="../../img/icon/cross-icon.svg" alt="close-icon" />
+                            <img src="img/icon/cross-icon.svg" alt="close-icon" />
                         </button>
                         <h3 class="modal__title"></h3>
                     </div>

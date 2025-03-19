@@ -59,18 +59,18 @@ export default class Cart {
         return createElement(`
         <div class="cart-product" data-product-id="${product.id}">
             <div class="cart-product__img">
-                <img src="../../img/product/${product.image}" alt="product">
+                <img src="img/product/${product.image}" alt="product">
             </div>
             <div class="cart-product__info">
                 <div class="cart-product__title">${escapeHtml(product.name)}</div>
                 <div class="cart-product__price-wrap">
                     <div class="cart-counter">
                         <button type="button" class="cart-counter__button cart-counter__button_minus">
-                            <img src="../../img/icon/square-minus-icon.svg" alt="minus">
+                            <img src="img/icon/square-minus-icon.svg" alt="minus">
                         </button>
                         <span class="cart-counter__count">${count}</span>
                         <button type="button" class="cart-counter__button cart-counter__button_plus">
-                            <img src="../../img/icon/square-plus-icon.svg" alt="plus">
+                            <img src="img/icon/square-plus-icon.svg" alt="plus">
                         </button>
                     </div>
                     <div class="cart-product__price">€${product.price.toFixed(2)}</div>
@@ -189,7 +189,7 @@ export default class Cart {
                 <p>
                     Order successful! Your order is being cooked :) <br>
                     We’ll notify you about delivery time shortly.<br>
-                    <img src="../../img/gif/delivery.gif">
+                    <img src="img/gif/delivery.gif">
                 </p>
             </div>
             <div class="modal__buttons">
