@@ -17,7 +17,7 @@ export default class Carousel {
               <img src="img/icon/angle-icon.svg" alt="icon" />
             </div>
             <div class="carousel__arrow carousel__arrow_left">
-              <img src="/img/icon/angle-left-icon.svg" alt="icon" />
+              <img src="img/icon/angle-left-icon.svg" alt="icon" />
             </div>
             <div class="carousel__inner"></div>
           </div>
@@ -26,7 +26,7 @@ export default class Carousel {
       let slides = this.slides.map(item => createElement(`
         <div class="carousel__slide" data-id="${item.id}">
           <img
-            src="/img/carousel/${item.image}"
+            src="img/carousel/${item.image}"
             class="carousel__img"
             alt="slide"
           />
@@ -34,7 +34,7 @@ export default class Carousel {
             <span class="carousel__price">€${item.price.toFixed(2)}</span>
             <div class="carousel__title">${item.name}</div>
             <button type="button" class="carousel__button">
-              <img src="/img/icon/plus-icon.svg" alt="icon" />
+              <img src="img/icon/plus-icon.svg" alt="icon" />
             </button>
           </div>
         </div>`));

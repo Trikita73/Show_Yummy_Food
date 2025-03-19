@@ -21,7 +21,7 @@ export default class ProductCard {
             <div class="card__body">
                 <div class="card__title">${escapeHtml(this.product.name)}</div>
                 <button type ="button" class="card__button">
-                    <img src="/img/icon/plus-icon.svg" alt="icon" />
+                    <img src="img/icon/plus-icon.svg" alt="icon" />
                 </button>
             </div>
 	    </div>`);
