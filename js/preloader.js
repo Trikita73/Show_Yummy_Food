@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	window.addEventListener('load', function() {
-		setTimeout(hideLoader, 700);
+		setTimeout(hideLoader, 7000000);
 	});
 
 	if (document.readyState === 'complete') {
